@@ -20,7 +20,7 @@ rollbar.log('Hello world!')
 
 const app = express();
 
-app.use(express.static(`${__dirname}/Public`))
+app.use(express.static(`${__dirname}/public`))
 
 app.use(express.json());
 
